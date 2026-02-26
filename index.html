@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
@@ -15,13 +16,15 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
-    <title>Erika Gogo</title>
+    <title>Front-End Developer - Erika Gogo</title>
+      <meta name="description" content="My name is Erika Gogo. I create responsive websites using HTML, CSS and bootstrap"/>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+   
        <nav class="navbar navbar-expand-lg fixed-top mb-5 navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Erika Gogo</a>
+      <div class="container">
+        <a class="navbar-brand" href="index.html" title="Erika Gogo">Erika Gogo</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -35,32 +38,32 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="index.html"
+            <a class="nav-link active" aria-current="page" href="index.html" title="Homepage"
               >Home</a
             >
-            <a class="nav-link" href="about.html">About me</a>
-            <a class="nav-link" href="about.html#contact">Contact me</a>
+            <a class="nav-link" href="about.html" title="About Erika Gogo">About me</a>
+            <a class="nav-link" href="about.html#contact" title="Contact details">Contact me</a>
           </div>
         </div>
       </div>
     </nav>
-    <div class="container">
-      <h2 class="text-center mt-5">👋 Hi I am</h2>
+   
+      <h2 class="text-center">👋 Hi I am</h2>
       <h1 class="text-center">Erika Gogo</h1>
       <h3 class="text-center">
-        <img src="/images/image.png" alt="Ireland-emoji" /> Front-end developer,
+        <img src="/images/image.png" alt="Ireland flag emoji" class="img-fluid"/> Front-end developer,
         based in Europe
       </h3>
       <div class="navigation-links">
-        <a href="about.html#contact" class="primary-link">Contact me</a>
-        <a href="about.html" class="secondary-link">About me</a>
+        <a href="about.html#contact" class="primary-link" title="Click for contact details">Contact me</a>
+        <a href="about.html" class="secondary-link" title="click for more info on Erika Gogo">About me</a>
       </div>
       <div class="container">
-        <div class="row ">
-          <div class="col-6 ">
-            <img src="/images/yoga.png" alt="yoga" class="img-fluid" />
+        <div class="row mt-5 ">
+          <div class="col-6 d-none d-lg-block">
+            <img src="/images/yoga.png" alt="yoga-app project" class="img-fluid" />
           </div>
-          <div class="col-6 ">
+          <div class="col-sm-6 ">
             <h2 class="mb-3">Yoga app</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -68,14 +71,14 @@
               omnis quam vel eos eveniet alias temporibus deserunt veritatis
               minima fugiat explicabo eum dolore.
             </p>
-            <div class="mt-5">
-              <a href="#" class="primary-link">Launch Yoga app</a>
+            <div class="mt-5 mb-5 launch-apps">
+              <a href="#" class="primary-link" title="click to launch yoga app">Launch Yoga app</a>
             </div>
           </div>
         </div>
         <div class="row mt-3 ">
           
-            <div class="col-6 ">
+            <div class="col-sm-6 ">
               <h2 class="mb-3">Weather app</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -83,25 +86,25 @@
                 omnis quam vel eos eveniet alias temporibus deserunt veritatis
                 minima fugiat explicabo eum dolore.
               </p>
-              <div class="mt-5">
-                <a href="#" class="primary-link">Launch Weather app</a>
+              <div class="mt-5 mb-5 launch-apps">
+                <a href="#" class="primary-link" title="click to launch weather app">Launch Weather app</a>
               </div>
             </div>
          
-          <div class="col-6 ">
+          <div class="col-sm-6 d-none d-lg-block ">
             <img
               src="/images/weather.png"
-              alt="weather-app"
+              alt="weather-app project"
               class="img-fluid"
             />
           </div>
         </div>
         <div class="row ">
-          <div class="col-6 ">
-            <img src="/images/yogurt.png" alt="yogurt" class="img-fluid" />
+          <div class="col-sm-6 d-none d-lg-block">
+            <img src="/images/yogurt.png" alt="yogurt-app project" class="img-fluid  " />
           </div>
           
-            <div class="col-6 ">
+            <div class="col-sm-6 ">
               <h2 class="mb-3">Yogurt app</h2>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -109,13 +112,11 @@
                 omnis quam vel eos eveniet alias temporibus deserunt veritatis
                 minima fugiat explicabo eum dolore.
               </p>
-              <div class="mt-5">
-                <a href="#" class="primary-link">Launch Yogurt app</a>
+              <div class="mt-5 launch-apps">
+                <a href="#" class="primary-link" title="click to launch yogurt app">Launch Yogurt app</a>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
+          
+   
   </body>
 </html>
